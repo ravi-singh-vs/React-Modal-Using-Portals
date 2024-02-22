@@ -1,0 +1,25 @@
+.App{
+    width: 100vw;
+    height: 100vh;
+    padding : 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* align-items: center; */
+}
+.App .open-btn{
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: white;
+    background-color: gray;
+    border: none;
+    cursor: pointer;
+}
+.disabled{
+    cursor: not-allowed !important;
+}
+.backdrop{
+    opacity: 15%;
+    background-color: rgb(55, 54, 54);
+    cursor:not-allowed;
+}
